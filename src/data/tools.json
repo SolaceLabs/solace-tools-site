@@ -81,7 +81,7 @@
       "id": "8",
       "name": "SDKPerf",
       "description": "Performance testing utility for Solace APIs to benchmark throughput and latency.",
-      "logo": "https://docs.solace.com/API/SDKPerf/sdkperf-architecture-705x332_546x257.png",
+      "logo": "/sdkperf_icon.png",
       "type": "Testing Tool",
       "technologies": ["Java", "JavaScript", "REST", "Python", "C", "CLI"],
       "link": "https://docs.solace.com/API/SDKPerf/SDKPerf.htm",
