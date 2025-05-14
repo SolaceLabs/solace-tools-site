@@ -8,7 +8,6 @@
       "type": "Web Application",
       "technologies": ["JavaScript", "Broker"],
       "link": "https://explorer.solace.dev",
-      "linkType": "visit",
       "featured": true,
       "phases": ["Test", "Develop"]
     },
@@ -20,7 +19,6 @@
       "type": "Web Application",
       "technologies": ["Broker", "REST"],
       "link": "https://feeds.solace.dev",
-      "linkType": "visit",
       "featured": false,
       "phases": ["Test", "Develop"]
     },
@@ -32,7 +30,6 @@
       "type": "Web Application",
       "technologies": ["AsyncAPI", "Solace Event Portal"],
       "link": "https://studio.solace.dev",
-      "linkType": "visit",
       "featured": true,
       "phases": ["Design", "Develop"]
     },
@@ -44,7 +41,6 @@
       "type": "CLI Tool",
       "technologies": ["Java", "AsyncAPI"],
       "codeLink": "https://github.com/SolaceLabs/sol-ep-asyncapi-importer",
-      "linkType": "github",
       "featured": false,
       "phases": ["Develop", "Deploy"]
     },
@@ -56,7 +52,6 @@
       "type": "Service",
       "technologies": ["Java", "Spring Boot", "AsyncAPI"],
       "codeLink": "https://github.com/SolaceLabs/asyncapi-importer-rest",
-      "linkType": "github",
       "featured": false,
       "phases": ["Develop", "Deploy"]
     },
@@ -68,7 +63,6 @@
       "type": "CLI Tool",
       "technologies": ["Node.js", "Broker"],
       "codeLink": "https://github.com/SolaceLabs/solace-tryme-cli",
-      "linkType": "github",
       "featured": false,
       "phases": ["Test", "Develop"]
     },
@@ -80,7 +74,6 @@
       "type": "CLI Tool",
       "technologies": ["JavaScript", "CLI"],
       "codeLink": "https://github.com/SolaceLabs/solace-pretty-dump",
-      "linkType": "github",
       "featured": false,
       "phases": ["Test", "Develop"]
     },
@@ -92,7 +85,6 @@
       "type": "Testing Tool",
       "technologies": ["Solace APIs", "Native"],
       "link": "https://docs.solace.com/API/SDKPerf/SDKPerf.htm",
-      "linkType": "visit",
       "featured": false,
       "phases": ["Test", "Monitor"]
     },
@@ -104,7 +96,6 @@
       "type": "Extension",
       "technologies": ["TypeScript", "VSCode API"],
       "codeLink": "https://github.com/SolaceLabs/solace-try-me-vsc-extension",
-      "linkType": "github",
       "featured": false,
       "phases": ["Develop", "Test"]
     },
@@ -116,7 +107,6 @@
       "type": "Extension",
       "technologies": ["Java", "IntelliJ SDK"],
       "codeLink": "https://github.com/SolaceLabs/solace-intellij-plugin",
-      "linkType": "github",
       "featured": false,
       "phases": ["Design", "Develop"]
     },
@@ -128,7 +118,6 @@
       "type": "Extension",
       "technologies": ["Java", "Broker"],
       "codeLink": "https://github.com/SolaceLabs/solace-mc-intellij-plugin",
-      "linkType": "github",
       "featured": false,
       "phases": ["Test", "Develop"]
     },
@@ -140,7 +129,6 @@
       "type": "Extension",
       "technologies": ["Java", "Eclipse", "MuleSoft"],
       "codeLink": "https://github.com/SolaceLabs/solace-ep-eclipse-plugin",
-      "linkType": "github",
       "featured": false,
       "phases": ["Design", "Develop"]
     },
@@ -152,7 +140,6 @@
       "type": "App",
       "technologies": ["Slack API", "Node.js"],
       "codeLink": "https://github.com/SolaceLabs/solace-slack-app",
-      "linkType": "github",
       "featured": false,
       "phases": ["Deploy", "Monitor"]
     },
@@ -164,7 +151,6 @@
       "type": "Plugin",
       "technologies": ["Atlassian SDK", "Java"],
       "codeLink": "https://github.com/SolaceLabs/solace-confluence-plugin",
-      "linkType": "github",
       "featured": false,
       "phases": ["Deploy", "Monitor"]
     },
@@ -176,7 +162,6 @@
       "type": "Web Application",
       "technologies": ["Java", "AsyncAPI", "SAP Integration Suite", "Solace Event Portal"],
       "link": "https://ep-is-gen.cfapps.ca10.hana.ondemand.com/",
-      "linkType": "visit",
       "featured": true,
       "phases": ["Develop"]
     },
@@ -188,7 +173,6 @@
       "type": "Plugin",
       "technologies": ["Logstash", "Elastic Stack", "Broker"],
       "codeLink": "https://github.com/SolaceLabs/logstash-input-solace",
-      "linkType": "github",
       "featured": false,
       "phases": ["Develop", "Monitor"]
     },
@@ -200,7 +184,6 @@
       "type": "Plugin",
       "technologies": ["Logstash", "Broker", "Java"],
       "codeLink": "https://github.com/SolaceLabs/logstash-output-solace",
-      "linkType": "github",
       "featured": false,
       "phases": ["Develop", "Monitor"]
     },
@@ -212,7 +195,6 @@
       "type": "Plugin",
       "technologies": ["Wireshark", "SMF", "C"],
       "codeLink": "https://github.com/SolaceLabs/wireshark-smf-plugin",
-      "linkType": "github",
       "featured": false,
       "phases": ["Test", "Monitor"]
     },
@@ -224,7 +206,6 @@
       "type": "Extension",
       "technologies": ["Quarkus", "Java", "Broker"],
       "codeLink": "https://github.com/SolaceLabs/solace-quarkus",
-      "linkType": "github",
       "featured": false,
       "phases": ["Develop", "Deploy"]
     },
@@ -236,7 +217,6 @@
       "type": "Library",
       "technologies": ["Log4j", "Java", "Broker"],
       "codeLink": "https://github.com/SolaceLabs/log4j-solace-appender",
-      "linkType": "github",
       "featured": false,
       "phases": ["Develop", "Monitor"]
     },
@@ -248,7 +228,6 @@
       "type": "Plugin",
       "technologies": ["Steampipe", "PostgreSQL", "Event Portal"],
       "codeLink": "https://github.com/SolaceLabs/steampipe-plugin-solace",
-      "linkType": "github",
       "featured": false,
       "phases": ["Design", "Monitor"]
     }
