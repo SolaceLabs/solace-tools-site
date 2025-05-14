@@ -61,8 +61,8 @@ export const ToolCard: React.FC<ToolCardProps> = ({ tool, aiExplanation }) => {
             rel="noopener noreferrer"
             className="flex w-full items-center justify-center gap-1 px-4 py-2 bg-blue-50 text-blue-600 hover:bg-blue-100 rounded-md transition-colors"
           >
-            {tool.linkType === 'download' ? <Download size={16} /> : <ExternalLink size={16} />}
-            <span>{tool.linkType === 'download' ? 'Download' : 'Visit'}</span>
+            <ExternalLink size={16} />
+            <span>Visit</span>
           </a>
         )}
         {tool.codeLink && (
