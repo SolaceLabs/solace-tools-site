@@ -9,7 +9,6 @@ export interface Tool {
   technologies: string[];
   link?: string;
   codeLink?: string;
-  linkType: 'visit' | 'download' | 'github';
   featured?: boolean;
   phases: ('Design' | 'Develop' | 'Test' | 'Deploy' | 'Monitor')[];
 }
