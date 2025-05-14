@@ -1,6 +1,6 @@
 import React from 'react';
 import { Tool } from '../data/tools';
-import { ExternalLink, Download, Code } from 'lucide-react';
+import { ExternalLink, Github } from 'lucide-react';
 
 interface ToolCardProps {
   tool: Tool;
@@ -87,7 +87,7 @@ export const ToolCard: React.FC<ToolCardProps> = ({ tool, aiExplanation }) => {
             rel="noopener noreferrer"
             className="flex w-full items-center justify-center gap-1 px-4 py-2 bg-purple-50 text-purple-600 hover:bg-purple-100 rounded-md transition-colors"
           >
-            <Code size={16} />
+            <Github size={16} />
             <span>View Code</span>
           </a>
         )}
