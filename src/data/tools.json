@@ -8,6 +8,8 @@
       "type": "Web Application",
       "technologies": ["JavaScript", "Broker"],
       "link": "https://explorer.solace.dev",
+      "codeLink": "https://explorer.solace.dev",
+      "videoLink": "https://explorer.solace.dev",
       "featured": true,
       "phases": ["Test", "Develop"]
     },
