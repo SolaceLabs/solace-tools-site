@@ -47,11 +47,11 @@ export const ToolList: React.FC<ToolListProps> = ({ tools }) => {
                   <h3 className="text-lg font-semibold text-gray-800">{tool.name}</h3>
                   <p className="text-gray-600 text-sm mt-1">
                     {tool.description}
-                    {tool.videoLink && (
+                    {tool.learnLink && (
                       <>
                         {' '}
                         <a 
-                          href={tool.videoLink}
+                          href={tool.learnLink}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-blue-600 hover:text-blue-800 hover:underline underline"
