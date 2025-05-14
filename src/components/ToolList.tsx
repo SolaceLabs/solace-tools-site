@@ -1,6 +1,6 @@
 import React from 'react';
 import { Tool } from '../data/tools';
-import { ExternalLink, Download, Code } from 'lucide-react';
+import { ExternalLink, Github } from 'lucide-react';
 
 interface ToolListProps {
   tools: Tool[];
@@ -56,7 +56,7 @@ export const ToolList: React.FC<ToolListProps> = ({ tools }) => {
                           rel="noopener noreferrer"
                           className="text-blue-600 hover:text-blue-800 hover:underline underline"
                         >
-                          Watch video
+                          Learn more
                         </a>
                       </>
                     )}
@@ -88,7 +88,7 @@ export const ToolList: React.FC<ToolListProps> = ({ tools }) => {
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1 px-3 py-1.5 bg-purple-50 text-purple-600 hover:bg-purple-100 rounded-md text-sm transition-colors"
                     >
-                      <Code size={16} />
+                      <Github size={16} />
                       <span>View Code</span>
                     </a>
                   )}
