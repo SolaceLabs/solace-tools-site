@@ -9,6 +9,7 @@ export interface Tool {
   technologies: string[];
   link?: string;
   codeLink?: string;
+  videoLink?: string;
   featured?: boolean;
   phases: ('Design' | 'Develop' | 'Test' | 'Deploy' | 'Monitor')[];
 }

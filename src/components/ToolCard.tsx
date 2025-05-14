@@ -38,7 +38,22 @@ export const ToolCard: React.FC<ToolCardProps> = ({ tool, aiExplanation }) => {
       
       <div className="p-4 flex-grow">
         <h3 className="text-lg font-semibold text-gray-800 mb-2">{tool.name}</h3>
-        <p className="text-gray-600 text-sm mb-4">{tool.description}</p>
+        <p className="text-gray-600 text-sm mb-4">
+          {tool.description}
+          {tool.videoLink && (
+            <>
+              {' '}
+              <a 
+                href={tool.videoLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 hover:underline"
+              >
+                Watch video
+              </a>
+            </>
+          )}
+        </p>
         
         {aiExplanation && (
           <div className="mb-4 p-3 bg-blue-50 rounded-md border border-blue-100">

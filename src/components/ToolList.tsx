@@ -45,7 +45,22 @@ export const ToolList: React.FC<ToolListProps> = ({ tools }) => {
               <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
                 <div>
                   <h3 className="text-lg font-semibold text-gray-800">{tool.name}</h3>
-                  <p className="text-gray-600 text-sm mt-1">{tool.description}</p>
+                  <p className="text-gray-600 text-sm mt-1">
+                    {tool.description}
+                    {tool.videoLink && (
+                      <>
+                        {' '}
+                        <a 
+                          href={tool.videoLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-600 hover:text-blue-800 hover:underline"
+                        >
+                          Watch video
+                        </a>
+                      </>
+                    )}
+                  </p>
                   
                   <div className="flex flex-wrap gap-2 mt-3">
                     {tool.phases.map(phase => renderTag(phase, 'phase'))}
