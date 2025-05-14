@@ -230,17 +230,6 @@
       "codeLink": "https://github.com/SolaceLabs/steampipe-plugin-solace",
       "featured": false,
       "phases": ["Design", "Develop"]
-    },
-    {
-      "id": "22",
-      "name": "EP SCS Workflow",
-      "description": "GitHub Actions workflow to plan, provision, and deploy a Spring Cloud Stream application using Solace Event Portal, Event Broker, and AsyncAPI.",
-      "logo": "https://codelabs.solace.dev/codelabs/spring-cloud-stream-basics/img/f4bfccdf4fb492d0.png",
-      "type": "Workflow Automation",
-      "technologies": ["GitHub Actions", "Spring Cloud Stream", "AsyncAPI", "Event Portal", "Event Broker"],
-      "codeLink": "https://github.com/SolaceLabs/ep-scs-workflow",
-      "featured": false,
-      "phases": ["Build/Develop", "Deploy"]
     }
   ]
 }

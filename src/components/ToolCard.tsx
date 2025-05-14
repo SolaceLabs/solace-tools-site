@@ -40,11 +40,11 @@ export const ToolCard: React.FC<ToolCardProps> = ({ tool, aiExplanation }) => {
         <h3 className="text-lg font-semibold text-gray-800 mb-2">{tool.name}</h3>
         <p className="text-gray-600 text-sm mb-4">
           {tool.description}
-          {tool.videoLink && (
+          {tool.learnLink && (
             <>
               {' '}
               <a 
-                href={tool.videoLink}
+                href={tool.learnLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:text-blue-800 hover:underline underline"
