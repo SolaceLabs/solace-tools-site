@@ -56,7 +56,7 @@ export const ToolList: React.FC<ToolListProps> = ({ tools }) => {
                           rel="noopener noreferrer"
                           className="text-blue-600 hover:text-blue-800 hover:underline underline"
                         >
-                          Watch video
+                          Learn more
                         </a>
                       </>
                     )}
