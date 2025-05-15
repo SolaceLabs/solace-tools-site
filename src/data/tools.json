@@ -230,6 +230,138 @@
       "codeLink": "https://github.com/SolaceLabs/steampipe-plugin-solace",
       "featured": false,
       "phases": ["Design", "Develop"]
+    },
+    {
+      "id": "22",
+      "name": "Solace Queue Browser Extension",
+      "description": "A browser extension to view the payload and metadata of messages in a Solace Event Broker queue.",
+      "logo": "https://raw.githubusercontent.com/solacecommunity/solace-queue-browser-extension/main/assets/logo.png",
+      "type": "Extension",
+      "technologies": ["Queue Browser", "Event Broker"],
+      "codeLink": "https://github.com/solacecommunity/solace-queue-browser-extension",
+      "featured": false,
+      "phases": ["Test", "Deploy"]
+    },
+    {
+      "id": "23",
+      "name": "Solace Prometheus Exporter",
+      "description": "A Prometheus exporter for Solace Message Brokers, enabling monitoring and observability.",
+      "logo": "https://raw.githubusercontent.com/solacecommunity/solace-prometheus-exporter/main/assets/logo.png",
+      "type": "Exporter",
+      "technologies": ["Prometheus", "Event Broker"],
+      "codeLink": "https://github.com/solacecommunity/solace-prometheus-exporter",
+      "featured": false,
+      "phases": ["Deploy"]
+    },
+    {
+      "id": "24",
+      "name": "Spring Cloud Stream Request-Reply",
+      "description": "A Spring Boot starter providing request-reply functionality for Spring Cloud Stream applications using Solace.",
+      "logo": "https://raw.githubusercontent.com/solacecommunity/spring-cloud-stream-request-reply/main/assets/logo.png",
+      "type": "Library",
+      "technologies": ["Spring", "Event Broker"],
+      "codeLink": "https://github.com/solacecommunity/spring-cloud-stream-request-reply",
+      "featured": false,
+      "phases": ["Build/Develop"]
+    },
+    {
+      "id": "25",
+      "name": "Solace Queue Browser",
+      "description": "A utility to browse messages in Solace queues, supporting both desktop and in-browser modes.",
+      "logo": "https://raw.githubusercontent.com/solacecommunity/solace-queue-browser/main/assets/logo.png",
+      "type": "Application",
+      "technologies": ["Queue Browser", "Event Broker"],
+      "codeLink": "https://github.com/solacecommunity/solace-queue-browser",
+      "featured": false,
+      "phases": ["Test", "Deploy"]
+    },
+    {
+      "id": "26",
+      "name": "Angular Solace Message Client",
+      "description": "An Angular client for sending and receiving messages using the Solace SMF protocol over WebSocket.",
+      "logo": "https://raw.githubusercontent.com/solacecommunity/angular-solace-message-client/main/assets/logo.png",
+      "type": "Library",
+      "technologies": ["Angular", "Event Broker"],
+      "codeLink": "https://github.com/solacecommunity/angular-solace-message-client",
+      "featured": false,
+      "phases": ["Build/Develop"]
+    },
+    {
+      "id": "27",
+      "name": "Spring Solace Leader Election",
+      "description": "A Spring Boot implementation of leader election using Solace exclusive queues.",
+      "logo": "https://raw.githubusercontent.com/solacecommunity/spring-solace-leader-election/main/assets/logo.png",
+      "type": "Library",
+      "technologies": ["Spring", "Event Broker"],
+      "codeLink": "https://github.com/solacecommunity/spring-solace-leader-election",
+      "featured": false,
+      "phases": ["Build/Develop"]
+    },
+    {
+      "id": "28",
+      "name": "Spring Boot Starter Solace Client Config",
+      "description": "A Spring Boot starter for configuring Solace clients with externalized configuration.",
+      "logo": "https://raw.githubusercontent.com/solacecommunity/spring-boot-starter-solace-client-config/main/assets/logo.png",
+      "type": "Library",
+      "technologies": ["Spring", "Event Broker"],
+      "codeLink": "https://github.com/solacecommunity/spring-boot-starter-solace-client-config",
+      "featured": false,
+      "phases": ["Build/Develop"]
+    },
+    {
+      "id": "29",
+      "name": "GraphQL Solace Subscriptions",
+      "description": "A GraphQL subscription implementation using Solace messaging for real-time data updates.",
+      "logo": "https://raw.githubusercontent.com/solacecommunity/graphql-solace-subscriptions/main/assets/logo.png",
+      "type": "Library",
+      "technologies": ["GraphQL", "Event Broker"],
+      "codeLink": "https://github.com/solacecommunity/graphql-solace-subscriptions",
+      "featured": false,
+      "phases": ["Build/Develop"]
+    },
+    {
+      "id": "30",
+      "name": "Solace JMSToolBox",
+      "description": "A GUI tool for browsing and managing JMS queues and topics on Solace Event Brokers.",
+      "logo": "https://docs.solace.com/_images/logo_jmstoolbox.png",
+      "type": "Application",
+      "technologies": ["Event Broker", "JMS"],
+      "link": "https://docs.solace.com/API/JMSToolBox.htm",
+      "featured": false,
+      "phases": ["Test", "Deploy"]
+    },
+    {
+      "id": "31",
+      "name": "Conapi Message Manager",
+      "description": "A web-based tool for managing and monitoring messages in Solace Event Brokers.",
+      "logo": "https://conapi.at/message-manager/assets/logo.png",
+      "type": "Application",
+      "technologies": ["Event Broker", "conapi"],
+      "link": "https://conapi.at/message-manager/",
+      "featured": false,
+      "phases": ["Deploy"]
+    },
+    {
+      "id": "32",
+      "name": "Solace Broker Terraform Provider",
+      "description": "A Terraform provider for managing Solace Event Broker configurations.",
+      "logo": "https://registry.terraform.io/assets/images/providers/solaceproducts/solacebroker.png",
+      "type": "Plugin",
+      "technologies": ["Event Broker", "Terraform"],
+      "link": "https://registry.terraform.io/providers/SolaceProducts/solacebroker/latest",
+      "featured": false,
+      "phases": ["Deploy"]
+    },
+    {
+      "id": "33",
+      "name": "Solace Broker Appliance Terraform Provider",
+      "description": "A Terraform provider for managing Solace Event Broker Appliance configurations.",
+      "logo": "https://registry.terraform.io/assets/images/providers/solaceproducts/solacebrokerappliance.png",
+      "type": "Plugin",
+      "technologies": ["Event Broker", "Terraform"],
+      "link": "https://registry.terraform.io/providers/SolaceProducts/solacebrokerappliance/latest",
+      "featured": false,
+      "phases": ["Deploy"]
     }
   ]
 }
