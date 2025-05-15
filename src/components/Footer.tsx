@@ -66,16 +66,16 @@ export const Footer: React.FC = () => {
           </a>
         </div>
         <div className="social-media flex space-x-4">
-          <a style={{color: "#00c895"}} href="https://github.com/solacedev" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+          <a href="https://github.com/solacedev" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 text-solace-classic-green">
             <i className="fab fa-github" aria-hidden="true"></i><span className="sr-only">GitHub</span>
           </a>
-          <a style={{color: "#00c895"}} href="https://www.linkedin.com/company/solacedotcom/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+          <a href="https://www.linkedin.com/company/solacedotcom/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 text-solace-classic-green">
             <i className="fab fa-linkedin" aria-hidden="true"></i><span className="sr-only">LinkedIn</span>
           </a>
-          <a style={{color: "#00c895"}} href="https://twitter.com/solacedotcom" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+          <a href="https://twitter.com/solacedotcom" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 text-solace-classic-green">
             <i className="fab fa-twitter-square" aria-hidden="true"></i><span className="sr-only">Twitter</span>
           </a>
-          <a style={{color: "#00c895"}} href="https://www.youtube.com/SolaceSystems" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+          <a href="https://www.youtube.com/SolaceSystems" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 text-solace-classic-green">
             <i className="fab fa-youtube-square" aria-hidden="true"></i><span className="sr-only">Youtube</span>
           </a>
         </div>
