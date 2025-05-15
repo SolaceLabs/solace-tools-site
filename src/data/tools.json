@@ -250,18 +250,18 @@
       "codeLink": "https://github.com/solacecommunity/solace-queue-browser-extension",
       "learnLink":"https://www.youtube.com/live/mv4NFa_MPPU?si=1aHwnNOjlYAatpTB&t=2657",
       "featured": false,
-      "phases": ["Test", "Deploy"]
+      "phases": ["Develop", "Test", "Monitor"]
     },
     {
       "id": "solace-prometheus-exporter",
       "name": "Solace Prometheus Exporter",
       "description": "A Prometheus exporter for Solace Message Brokers, enabling monitoring and observability.",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/2066px-Prometheus_software_logo.svg.png",
-      "type": "Exporter",
+      "type": "Library",
       "technologies": ["Prometheus", "Event Broker"],
       "codeLink": "https://github.com/solacecommunity/solace-prometheus-exporter",
       "featured": false,
-      "phases": ["Deploy"]
+      "phases": ["Monitor"]
     },
     {
       "id": "spring-cloud-stream-request-reply",
@@ -269,11 +269,11 @@
       "description": "A Spring Boot starter providing request-reply functionality for Spring Cloud Stream applications using Solace.",
       "logo": "https://img.icons8.com/?size=512&id=90519&format=png",
       "type": "Library",
-      "technologies": ["Spring", "Event Broker"],
+      "technologies": ["Spring", "Event Broker", "Java"],
       "codeLink": "https://github.com/solacecommunity/spring-cloud-stream-request-reply",
       "learnLink":"https://www.youtube.com/watch?v=72Wz5rrStAU&t=35s&ab_channel=Solace",
       "featured": false,
-      "phases": ["Build/Develop"]
+      "phases": ["Develop"]
     },
     {
       "id": "solace-queue-browser",
@@ -284,7 +284,7 @@
       "technologies": ["Queue Browser", "Event Broker"],
       "codeLink": "https://github.com/solacecommunity/solace-queue-browser",
       "featured": false,
-      "phases": ["Test", "Deploy"]
+      "phases": ["Develop", "Test", "Monitor"]
     },
     {
       "id": "angular-solace-message-client",
@@ -296,7 +296,7 @@
       "link": "https://www.npmjs.com/package/@solace-community/angular-solace-message-client",
       "codeLink": "https://github.com/solacecommunity/angular-solace-message-client",
       "featured": false,
-      "phases": ["Build/Develop"]
+      "phases": ["Develop"]
     },
     {
       "id": "spring-solace-leader-election",
@@ -307,7 +307,7 @@
       "technologies": ["Spring", "Event Broker"],
       "codeLink": "https://github.com/solacecommunity/spring-solace-leader-election",
       "featured": false,
-      "phases": ["Build/Develop"]
+      "phases": ["Develop"]
     },
     {
       "id": "spring-boot-starter-solace-client-config",
@@ -315,10 +315,10 @@
       "description": "A Spring Boot starter for configuring Solace clients with externalized configuration.",
       "logo": "https://img.icons8.com/?size=512&id=90519&format=png",
       "type": "Library",
-      "technologies": ["Spring", "Event Broker"],
+      "technologies": ["Spring", "Event Broker", "Java"],
       "codeLink": "https://github.com/solacecommunity/spring-boot-starter-solace-client-config",
       "featured": false,
-      "phases": ["Build/Develop"]
+      "phases": ["Develop"]
     },
     {
       "id": "graphql-solace-subscriptions",
@@ -329,7 +329,7 @@
       "technologies": ["GraphQL", "Event Broker"],
       "codeLink": "https://github.com/solacecommunity/graphql-solace-subscriptions",
       "featured": false,
-      "phases": ["Build/Develop"]
+      "phases": ["Develop"]
     },
     {
       "id": "solace-jmstoolbox",
@@ -341,7 +341,7 @@
       "link": "https://docs.solace.com/API/JMSToolBox.htm",
       "codeLink": "",
       "featured": false,
-      "phases": ["Test", "Deploy"]
+      "phases": ["Develop", "Test", "Monitor"]
     },
     {
       "id": "conapi-message-manager",
@@ -349,11 +349,11 @@
       "description": "A web-based tool for managing and monitoring messages in Solace Event Brokers.",
       "logo": "https://conapi.at/wp-content/uploads/2024/12/conapi_logo_darkpurple.png",
       "type": "Application",
-      "technologies": ["Event Broker", "conapi"],
+      "technologies": ["Event Broker", "Queue Browser"],
       "link": "https://conapi.at/message-manager/",
       "learnLink":"https://www.youtube.com/live/mv4NFa_MPPU?si=cqutDePRWEz5ZXRC&t=3611",
       "featured": false,
-      "phases": ["Deploy"]
+      "phases": ["Develop", "Test", "Monitor"]
     },
     {
       "id": "solace-broker-terraform-provider",
