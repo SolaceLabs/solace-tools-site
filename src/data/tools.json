@@ -362,6 +362,27 @@
       "link": "https://registry.terraform.io/providers/SolaceProducts/solacebrokerappliance/latest",
       "featured": false,
       "phases": ["Deploy"]
+     {
+      "id": "34",
+      "name": "Github Action Solace Event Portal Configuration Push",
+      "description": "A github action that facilitates the Solace Event Portal Config push through CI/CD interactions",
+      "logo": "https://cdn-icons-png.flaticon.com/512/733/733609.png",
+      "type": "Extension",
+      "technologies": ["Github", "CICD", "Event Portal"],
+      "link": "https://github.com/marketplace/actions/solace-event-portal-configuration-push",
+      "featured": false,
+      "phases": ["Design", "Develop"]
+    },
+    {
+      "id": "35",
+      "name": "Github Action Solace Event Broker Provisioning",
+      "description": "A github action that facilitates the provisioning of a Solace Event Broker through reflecting a desing from Solace Event Portal",
+      "logo": "https://cdn-icons-png.flaticon.com/512/733/733609.png",
+      "type": "Extension",
+      "technologies": ["Github", "CICD", "Event Portal", "Provisioning"],
+      "link": "https://github.com/marketplace/actions/solace-event-portal-provisioning-using-terrafornm",
+      "featured": false,
+      "phases": ["Design", "Develop"]
     }
   ]
 }
