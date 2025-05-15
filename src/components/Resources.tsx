@@ -34,7 +34,7 @@ export const Resources: React.FC = () => {
           className="block text-white p-6 rounded-lg shadow transition bg-solace-resource-gray"
         >
           <div className="text-xl mb-2 text-solace-classic-green">Codelabs & Workshops</div>
-          <p>Get guided, hands on coding experience with PubSub+ Codelabs.</p>
+          <p>Get guided, hands on coding experience with Solace Codelabs.</p>
         </a>
       </div>
 
@@ -55,7 +55,7 @@ export const Resources: React.FC = () => {
           className="block text-white p-6 rounded-lg shadow transition bg-solace-resource-gray"
         >
           <div className="text-xl mb-2 text-solace-classic-green">SDKPerf</div>
-          <p>SDKPerf is a command line tool for validating performance, checking configuration, and exploring features associated with your PubSub+ message broker.</p>
+          <p>SDKPerf is a command line tool for validating performance, checking configuration, and exploring features associated with your Solace Event Broker.</p>
         </a>
         <a
           href="https://solace.com/connectors/"
@@ -64,7 +64,7 @@ export const Resources: React.FC = () => {
           className="block text-white p-6 rounded-lg shadow transition bg-solace-resource-gray"
         >
           <div className="text-xl mb-2 text-solace-classic-green">Integration Hub</div>
-          <p>Get a jump start plugging PubSub+ into AWS, Kafka, Spark, IBM WebSphere, and much more.</p>
+          <p>Get a jump start on your event-driven integration with micro-integrations. Discover options to connect your apps, databases, and messaging services with Solace platform.</p>
         </a>
       </div>
 
@@ -76,7 +76,7 @@ export const Resources: React.FC = () => {
           className="block text-white p-6 rounded-lg shadow transition bg-solace-resource-gray"
         >
           <div className="text-xl mb-2 text-solace-classic-green">Developer Community</div>
-          <p>Technical community for PubSub+.</p>
+          <p>Technical community for Solace.</p>
         </a>
         <a
           href="https://solace.com/engage-developer-advocate/"
