@@ -362,7 +362,8 @@
       "link": "https://registry.terraform.io/providers/SolaceProducts/solacebrokerappliance/latest",
       "featured": false,
       "phases": ["Deploy"]
-     {
+    },
+    {
       "id": "34",
       "name": "Github Action Solace Event Portal Configuration Push",
       "description": "A github action that facilitates the Solace Event Portal Config push through CI/CD interactions",
