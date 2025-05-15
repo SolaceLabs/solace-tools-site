@@ -19,6 +19,7 @@ export default {
           'dark-green': '#009193',
           orange: '#FCA829',
           white: '#FFFFFF',
+          'resource-gray': '#343a40',
           'cool-gray': {
             12: '#4F4F4F',
             13: '#AEAEAE',

@@ -43,7 +43,7 @@ export const Hero: React.FC<HeroProps> = ({ onRecommendations }) => {
 
   return (
     <section 
-      className="relative text-white py-16 md:py-24 bg-cover bg-center"
+      className="relative text-white pt-16 pb-8 md:pt-24 md:pb-12 bg-cover bg-center"
       style={{ 
         backgroundImage: 'url(https://www.solace.dev/static/header-bg-photo-6f69eb1013425f7391d803738b75e441.jpg)'
       }}
@@ -76,6 +76,15 @@ export const Hero: React.FC<HeroProps> = ({ onRecommendations }) => {
             {isLoading ? 'Thinking...' : 'Ask Solly AI'}
           </button>
         </form>
+        <div className="p-6 rounded-lg shadow-sm mt-4 text-solace-cool-gray-13">
+          <p>
+            These tools are intended to make it easier and faster to
+            build event-driven applications and integrations using the
+            Solace Platform. They are provided by Solace or the community
+            as open source tools and we invite the community to use them,
+            provide feedback and enhance them.
+          </p>
+        </div>
       </div>
     </section>
   );
