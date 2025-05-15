@@ -63,7 +63,7 @@ export const Resources: React.FC = () => {
           rel="noopener noreferrer"
           className="block text-white p-6 rounded-lg shadow transition bg-solace-resource-gray"
         >
-          <div className="text-xl mb-2 text-solace-classic-green">Integrations Hub</div>
+          <div className="text-xl mb-2 text-solace-classic-green">Integration Hub</div>
           <p>Get a jump start plugging PubSub+ into AWS, Kafka, Spark, IBM WebSphere, and much more.</p>
         </a>
       </div>
