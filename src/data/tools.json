@@ -291,12 +291,12 @@
       "name": "Angular Solace Message Client",
       "description": "An Angular client for sending and receiving messages using the Solace SMF protocol over WebSocket.",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png",
-      "type": "Library",
+      "type": "Application",
       "technologies": ["Angular", "Event Broker"],
       "link": "https://www.npmjs.com/package/@solace-community/angular-solace-message-client",
       "codeLink": "https://github.com/solacecommunity/angular-solace-message-client",
       "featured": false,
-      "phases": ["Develop"]
+      "phases": ["Develop", "Test"]
     },
     {
       "id": "spring-solace-leader-election",
@@ -304,10 +304,10 @@
       "description": "A Spring Boot implementation of leader election using Solace exclusive queues.",
       "logo": "https://img.icons8.com/?size=512&id=90519&format=png",
       "type": "Library",
-      "technologies": ["Spring", "Event Broker"],
+      "technologies": ["Spring", "Event Broker", "Java"],
       "codeLink": "https://github.com/solacecommunity/spring-solace-leader-election",
       "featured": false,
-      "phases": ["Develop"]
+      "phases": ["Develop", "Monitor"]
     },
     {
       "id": "spring-boot-starter-solace-client-config",
