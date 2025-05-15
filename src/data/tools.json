@@ -8,6 +8,7 @@
       "type": "Web Application",
       "technologies": ["JavaScript", "Event Broker"],
       "link": "https://explorer.solace.dev",
+      "learnLink": "https://explorer.solace.dev/help/",
       "featured": true,
       "phases": ["Test", "Develop", "Monitor"]
     },
@@ -19,6 +20,7 @@
       "type": "Web Application",
       "technologies": ["Event Broker", "AsyncAPI"],
       "link": "https://feeds.solace.dev",
+      "codeLink": "https://github.com/solacecommunity/solace-event-feeds-site",
       "featured": true,
       "phases": ["Test", "Develop"]
     },
@@ -30,6 +32,7 @@
       "type": "Web Application",
       "technologies": ["AsyncAPI", "Event Portal"],
       "link": "https://studio.solace.dev",
+      "codeLink": "https://github.com/TamimiGitHub/asyncapi-studio",
       "featured": true,
       "phases": ["Design", "Develop"]
     },
@@ -63,6 +66,7 @@
       "type": "CLI Tool",
       "technologies": ["Node.js", "Event Broker"],
       "codeLink": "https://github.com/SolaceLabs/solace-tryme-cli",
+      "learnLink": "https://solace.community/t/solace-try-me-cli-stm-a-sleek-command-line-tool-for-messaging-solace-pubsub-broker/1920",
       "featured": false,
       "phases": ["Test", "Develop", "Monitor"]
     },
@@ -74,6 +78,7 @@
       "type": "CLI Tool",
       "technologies": ["Java", "CLI"],
       "codeLink": "https://github.com/SolaceLabs/solace-pretty-dump",
+      "learnLink": "https://solace.community/t/sdkperf-but-pretty-for-json-and-xml/1732",
       "featured": false,
       "phases": ["Test", "Develop", "Monitor"]
     },
@@ -95,6 +100,7 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png",
       "type": "Extension",
       "technologies": ["IDE", "VSCode"],
+      "link": "https://marketplace.visualstudio.com/items?itemName=solace-tools.solace-try-me-vsc-extension",
       "codeLink": "https://github.com/SolaceLabs/solace-try-me-vsc-extension",
       "featured": false,
       "phases": ["Develop", "Test"]
@@ -150,6 +156,7 @@
       "logo": "https://images.seeklogo.com/logo-png/33/1/confluence-logo-png_seeklogo-338595.png",
       "type": "Plugin",
       "technologies": ["Confluence", "Java"],
+      "link": "https://marketplace.atlassian.com/apps/1230432/solace-event-portal",
       "codeLink": "https://github.com/SolaceLabs/solace-confluence-plugin",
       "featured": false,
       "phases": ["Design", "Develop", "Test"]
@@ -162,6 +169,7 @@
       "type": "Web Application",
       "technologies": ["Java", "AsyncAPI", "SAP", "Event Portal"],
       "link": "https://ep-is-gen.cfapps.ca10.hana.ondemand.com/",
+      "codeLink": "https://github.com/SolaceLabs/ep-asyncapi-sap-is-converter",
       "featured": false,
       "phases": ["Develop"]
     },
@@ -206,6 +214,7 @@
       "type": "Extension",
       "technologies": ["Quarkus", "Java", "Event Broker"],
       "codeLink": "https://github.com/SolaceLabs/solace-quarkus",
+      "link": "https://central.sonatype.com/artifact/com.solace.quarkus/quarkus-solace-client",
       "featured": false,
       "phases": ["Develop", "Deploy"]
     },
@@ -239,6 +248,7 @@
       "type": "Extension",
       "technologies": ["Queue Browser", "Event Broker"],
       "codeLink": "https://github.com/solacecommunity/solace-queue-browser-extension",
+      "learnLink":"https://www.youtube.com/live/mv4NFa_MPPU?si=1aHwnNOjlYAatpTB&t=2657",
       "featured": false,
       "phases": ["Test", "Deploy"]
     },
@@ -261,6 +271,7 @@
       "type": "Library",
       "technologies": ["Spring", "Event Broker"],
       "codeLink": "https://github.com/solacecommunity/spring-cloud-stream-request-reply",
+      "learnLink":"https://www.youtube.com/watch?v=72Wz5rrStAU&t=35s&ab_channel=Solace",
       "featured": false,
       "phases": ["Build/Develop"]
     },
@@ -282,6 +293,7 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png",
       "type": "Library",
       "technologies": ["Angular", "Event Broker"],
+      "link": "https://www.npmjs.com/package/@solace-community/angular-solace-message-client",
       "codeLink": "https://github.com/solacecommunity/angular-solace-message-client",
       "featured": false,
       "phases": ["Build/Develop"]
@@ -327,6 +339,7 @@
       "type": "Application",
       "technologies": ["Event Broker", "JMS"],
       "link": "https://docs.solace.com/API/JMSToolBox.htm",
+      "codeLink": "",
       "featured": false,
       "phases": ["Test", "Deploy"]
     },
@@ -338,6 +351,7 @@
       "type": "Application",
       "technologies": ["Event Broker", "conapi"],
       "link": "https://conapi.at/message-manager/",
+      "learnLink":"https://www.youtube.com/live/mv4NFa_MPPU?si=cqutDePRWEz5ZXRC&t=3611",
       "featured": false,
       "phases": ["Deploy"]
     },
@@ -349,6 +363,7 @@
       "type": "Plugin",
       "technologies": ["Event Broker", "Terraform"],
       "link": "https://registry.terraform.io/providers/SolaceProducts/solacebroker/latest",
+      "codeLink": "https://github.com/SolaceProducts/terraform-provider-solacebroker",
       "featured": false,
       "phases": ["Deploy"]
     },
@@ -360,6 +375,7 @@
       "type": "Plugin",
       "technologies": ["Event Broker", "Terraform"],
       "link": "https://registry.terraform.io/providers/SolaceProducts/solacebrokerappliance/latest",
+      "codeLink": "https://github.com/SolaceProducts/terraform-provider-solacebrokerappliance",
       "featured": false,
       "phases": ["Deploy"]
     },
