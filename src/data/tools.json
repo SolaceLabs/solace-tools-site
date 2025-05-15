@@ -1,40 +1,43 @@
 {
   "tools": [
     {
-      "id": "1",
+      "id": "sunburst-topic-explorer",
       "name": "Sunburst Topic Explorer",
       "description": "Visualize and explore Solace topic hierarchies using interactive sunburst charts.",
       "logo": "https://explorer.solace.dev/gfx/favicon3.png",
       "type": "Web Application",
       "technologies": ["JavaScript", "Event Broker"],
       "link": "https://explorer.solace.dev",
+      "learnLink": "https://explorer.solace.dev/help/",
       "featured": true,
       "phases": ["Test", "Develop", "Monitor"]
     },
     {
-      "id": "2",
+      "id": "solace-try-me-event-feeds",
       "name": "Solace Try-Me Event Feeds",
       "description": "Simulate publishing events using curated feeds to test your Solace integrations.",
       "logo": "https://feeds.solace.dev/static/solace-feeds-logo-white-1fa5deb6305d6ba6eead73e438c1cf3b.png",
       "type": "Web Application",
       "technologies": ["Event Broker", "AsyncAPI"],
       "link": "https://feeds.solace.dev",
+      "codeLink": "https://github.com/solacecommunity/solace-event-feeds-site",
       "featured": true,
       "phases": ["Test", "Develop"]
     },
     {
-      "id": "3",
+      "id": "asyncapi-studio-w-event-portal-import",
       "name": "AsyncAPI Studio w/ Event Portal Import",
       "description": "Create and visualize AsyncAPI specs with native support for importing from Solace Event Portal.",
       "logo": "https://avatars.githubusercontent.com/u/16401334?s=200&v=4",
       "type": "Web Application",
       "technologies": ["AsyncAPI", "Event Portal"],
       "link": "https://studio.solace.dev",
+      "codeLink": "https://github.com/TamimiGitHub/asyncapi-studio",
       "featured": true,
       "phases": ["Design", "Develop"]
     },
     {
-      "id": "4",
+      "id": "asyncapi-event-portal-importer",
       "name": "AsyncAPI Event Portal Importer",
       "description": "A CLI tool to import AsyncAPI specifications into Solace Event Portal.",
       "logo": "https://avatars.githubusercontent.com/u/16401334?s=200&v=4",
@@ -45,7 +48,7 @@
       "phases": ["Design", "Develop", "Deploy"]
     },
     {
-      "id": "5",
+      "id": "asyncapi-event-portal-importer-rest-service",
       "name": "AsyncAPI Event Portal Importer REST Service",
       "description": "A RESTful service for importing AsyncAPI definitions into Solace Event Portal.",
       "logo": "https://avatars.githubusercontent.com/u/16401334?s=200&v=4",
@@ -56,29 +59,31 @@
       "phases": ["Design", "Develop", "Deploy"]
     },
     {
-      "id": "6",
+      "id": "solace-try-me-cli",
       "name": "Solace Try-Me CLI",
       "description": "Command-line interface to simulate publishing and subscribing to Solace brokers.",
       "logo": "https://images.seeklogo.com/logo-png/22/1/stm-logo-png_seeklogo-224272.png",
       "type": "CLI Tool",
       "technologies": ["Node.js", "Event Broker"],
       "codeLink": "https://github.com/SolaceLabs/solace-tryme-cli",
+      "learnLink": "https://solace.community/t/solace-try-me-cli-stm-a-sleek-command-line-tool-for-messaging-solace-pubsub-broker/1920",
       "featured": false,
       "phases": ["Test", "Develop", "Monitor"]
     },
     {
-      "id": "7",
+      "id": "pretty-dump",
       "name": "Pretty Dump",
       "description": "Format Solace message payloads into human-readable structures for easier debugging.",
       "logo": "https://raw.githubusercontent.com/SolaceLabs/solace-pretty-dump/main/src/prettydump5.png",
       "type": "CLI Tool",
       "technologies": ["Java", "CLI"],
       "codeLink": "https://github.com/SolaceLabs/solace-pretty-dump",
+      "learnLink": "https://solace.community/t/sdkperf-but-pretty-for-json-and-xml/1732",
       "featured": false,
       "phases": ["Test", "Develop", "Monitor"]
     },
     {
-      "id": "8",
+      "id": "sdkperf",
       "name": "SDKPerf",
       "description": "Performance testing utility for Solace APIs to benchmark throughput and latency.",
       "logo": "/sdkperf_icon.png",
@@ -89,18 +94,19 @@
       "phases": ["Develop", "Test", "Monitor"]
     },
     {
-      "id": "9",
+      "id": "vscode-try-me-extension",
       "name": "VSCode Try-Me Extension",
       "description": "VSCode extension to interactively test Solace messaging via Try-Me client.",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png",
       "type": "Extension",
       "technologies": ["IDE", "VSCode"],
+      "link": "https://marketplace.visualstudio.com/items?itemName=solace-tools.solace-try-me-vsc-extension",
       "codeLink": "https://github.com/SolaceLabs/solace-try-me-vsc-extension",
       "featured": false,
       "phases": ["Develop", "Test"]
     },
     {
-      "id": "10",
+      "id": "intellij-event-portal-plugin",
       "name": "IntelliJ Event Portal Plugin",
       "description": "IntelliJ plugin to interact with the Solace Event Portal directly from your IDE.",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/2048px-IntelliJ_IDEA_Icon.svg.png",
@@ -111,7 +117,7 @@
       "phases": ["Design", "Develop", "Test"]
     },
     {
-      "id": "11",
+      "id": "intellij-try-me-plugin",
       "name": "IntelliJ Try-Me Plugin",
       "description": "Send and receive messages directly in IntelliJ using the Solace Try-Me interface.",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/IntelliJ_IDEA_Icon.svg/2048px-IntelliJ_IDEA_Icon.svg.png",
@@ -122,7 +128,7 @@
       "phases": ["Test", "Develop"]
     },
     {
-      "id": "12",
+      "id": "mulesoft-anypoint-eclipse-ide-plugin",
       "name": "MuleSoft Anypoint / Eclipse IDE Plugin",
       "description": "Use Solace Event Portal inside MuleSoft Anypoint Studio or Eclipse to generate models.",
       "logo": "https://cdn.freebiesupply.com/logos/large/2x/eclipse-11-logo-png-transparent.png",
@@ -133,7 +139,7 @@
       "phases": ["Design", "Develop", "Test"]
     },
     {
-      "id": "13",
+      "id": "slack-plugin",
       "name": "Slack Plugin",
       "description": "Access your Event Portal resources directly from Slack. Including Application Domains, Applications, Events and Schemas",
       "logo": "https://cdn.freebiesupply.com/logos/thumbs/2x/slack-logo-thumb.png",
@@ -144,29 +150,31 @@
       "phases": ["Design", "Develop", "Test"]
     },
     {
-      "id": "14",
+      "id": "confluence-plugin",
       "name": "Confluence Plugin",
       "description": "Embed Solace Event Portal assets and references directly into Confluence documentation.",
       "logo": "https://images.seeklogo.com/logo-png/33/1/confluence-logo-png_seeklogo-338595.png",
       "type": "Plugin",
       "technologies": ["Confluence", "Java"],
+      "link": "https://marketplace.atlassian.com/apps/1230432/solace-event-portal",
       "codeLink": "https://github.com/SolaceLabs/solace-confluence-plugin",
       "featured": false,
       "phases": ["Design", "Develop", "Test"]
     },
     {
-      "id": "15",
+      "id": "sap-ci-codegen-from-event-portal",
       "name": "SAP CI CodeGen from Event Portal",
       "description": "Generates SAP Cloud Integration (CPI) iFlow artifacts from AsyncAPI specifications exported from Solace Event Portal, streamlining event-driven integration development.",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/1200px-SAP_2011_logo.svg.png",
       "type": "Web Application",
       "technologies": ["Java", "AsyncAPI", "SAP", "Event Portal"],
       "link": "https://ep-is-gen.cfapps.ca10.hana.ondemand.com/",
+      "codeLink": "https://github.com/SolaceLabs/ep-asyncapi-sap-is-converter",
       "featured": false,
       "phases": ["Develop"]
     },
     {
-      "id": "16",
+      "id": "logstash-input-for-solace",
       "name": "Logstash Input for Solace",
       "description": "A Logstash plugin that allows ingesting events from Solace PubSub+ into the Elastic Stack for observability and analysis.",
       "logo": "https://cdn.worldvectorlogo.com/logos/elastic-logstash.svg",
@@ -177,7 +185,7 @@
       "phases": ["Develop", "Monitor"]
     },
     {
-      "id": "17",
+      "id": "logstash-output-for-solace",
       "name": "Logstash Output for Solace",
       "description": "A Logstash plugin that enables publishing events from Logstash pipelines to Solace PubSub+ event brokers, facilitating seamless integration between the Elastic Stack and Solace messaging infrastructure.",
       "logo": "https://cdn.worldvectorlogo.com/logos/elastic-logstash.svg",
@@ -188,7 +196,7 @@
       "phases": ["Develop", "Monitor"]
     },
     {
-      "id": "18",
+      "id": "wireshark-smf-plugin",
       "name": "Wireshark SMF Plugin",
       "description": "A Wireshark plugin for decoding Solace SMF (Solace Message Format) packets, enabling low-level inspection and troubleshooting of Solace network traffic.",
       "logo": "https://static-00.iconduck.com/assets.00/wireshark-alt-icon-2048x2048-4ex8a9zk.png",
@@ -199,18 +207,19 @@
       "phases": ["Test", "Monitor"]
     },
     {
-      "id": "19",
+      "id": "solace-quarkus-extension",
       "name": "Solace Quarkus Extension",
       "description": "An extension that integrates Solace messaging into the Quarkus framework for reactive Java microservices.",
       "logo": "https://quarkus.io/assets/images/brand/quarkus_icon_1024px_default.png",
       "type": "Extension",
       "technologies": ["Quarkus", "Java", "Event Broker"],
       "codeLink": "https://github.com/SolaceLabs/solace-quarkus",
+      "link": "https://central.sonatype.com/artifact/com.solace.quarkus/quarkus-solace-client",
       "featured": false,
       "phases": ["Develop", "Deploy"]
     },
     {
-      "id": "20",
+      "id": "log4j-solace-appender",
       "name": "Log4j Solace Appender",
       "description": "A Log4j appender that publishes logs as Solace messages, enabling event-driven observability and distributed logging patterns.",
       "logo": "https://www.riskrecon.com/hs-fs/hubfs/Log4j-png.png?width=250&name=Log4j-png.png",
@@ -221,7 +230,7 @@
       "phases": ["Develop", "Monitor"]
     },
     {
-      "id": "21",
+      "id": "steampipe-plugin-for-solace",
       "name": "Steampipe Plugin for Solace",
       "description": "A Steampipe plugin to query Solace Event Portal assets using SQL, enabling powerful insights and reporting with simple queries.",
       "logo": "https://steampipe.io/icon2.png",
@@ -231,8 +240,147 @@
       "featured": false,
       "phases": ["Design", "Develop"]
     },
-     {
-      "id": "22",
+    {
+      "id": "solace-queue-browser-extension",
+      "name": "Solace Queue Browser Extension",
+      "description": "A browser extension to view the payload and metadata of messages in a Solace Event Broker queue.",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/2048px-Google_Chrome_icon_%28February_2022%29.svg.png",
+      "type": "Extension",
+      "technologies": ["Queue Browser", "Event Broker"],
+      "codeLink": "https://github.com/solacecommunity/solace-queue-browser-extension",
+      "learnLink":"https://www.youtube.com/live/mv4NFa_MPPU?si=1aHwnNOjlYAatpTB&t=2657",
+      "featured": false,
+      "phases": ["Develop", "Test", "Monitor"]
+    },
+    {
+      "id": "solace-prometheus-exporter",
+      "name": "Solace Prometheus Exporter",
+      "description": "A Prometheus exporter for Solace Message Brokers, enabling monitoring and observability.",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/2066px-Prometheus_software_logo.svg.png",
+      "type": "Library",
+      "technologies": ["Prometheus", "Event Broker"],
+      "codeLink": "https://github.com/solacecommunity/solace-prometheus-exporter",
+      "featured": false,
+      "phases": ["Monitor"]
+    },
+    {
+      "id": "spring-cloud-stream-request-reply",
+      "name": "Spring Cloud Stream Request-Reply",
+      "description": "A Spring Boot starter providing request-reply functionality for Spring Cloud Stream applications using Solace.",
+      "logo": "https://img.icons8.com/?size=512&id=90519&format=png",
+      "type": "Library",
+      "technologies": ["Spring", "Event Broker", "Java"],
+      "codeLink": "https://github.com/solacecommunity/spring-cloud-stream-request-reply",
+      "learnLink":"https://www.youtube.com/watch?v=72Wz5rrStAU&t=35s&ab_channel=Solace",
+      "featured": false,
+      "phases": ["Develop"]
+    },
+    {
+      "id": "solace-queue-browser",
+      "name": "Solace Queue Browser",
+      "description": "A utility to browse messages in Solace queues, supporting both desktop and in-browser modes.",
+      "logo": "/queue.svg",
+      "type": "Application",
+      "technologies": ["Queue Browser", "Event Broker"],
+      "codeLink": "https://github.com/solacecommunity/solace-queue-browser",
+      "featured": false,
+      "phases": ["Develop", "Test", "Monitor"]
+    },
+    {
+      "id": "angular-solace-message-client",
+      "name": "Angular Solace Message Client",
+      "description": "An Angular client for sending and receiving messages using the Solace SMF protocol over WebSocket.",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png",
+      "type": "Application",
+      "technologies": ["Angular", "Event Broker"],
+      "link": "https://www.npmjs.com/package/@solace-community/angular-solace-message-client",
+      "codeLink": "https://github.com/solacecommunity/angular-solace-message-client",
+      "featured": false,
+      "phases": ["Develop", "Test"]
+    },
+    {
+      "id": "spring-solace-leader-election",
+      "name": "Spring Solace Leader Election",
+      "description": "A Spring Boot implementation of leader election using Solace exclusive queues.",
+      "logo": "https://img.icons8.com/?size=512&id=90519&format=png",
+      "type": "Library",
+      "technologies": ["Spring", "Event Broker", "Java"],
+      "codeLink": "https://github.com/solacecommunity/spring-solace-leader-election",
+      "featured": false,
+      "phases": ["Develop", "Monitor"]
+    },
+    {
+      "id": "spring-boot-starter-solace-client-config",
+      "name": "Spring Boot Starter Solace Client Config",
+      "description": "A Spring Boot starter for configuring Solace clients with externalized configuration.",
+      "logo": "https://img.icons8.com/?size=512&id=90519&format=png",
+      "type": "Library",
+      "technologies": ["Spring", "Event Broker", "Java"],
+      "codeLink": "https://github.com/solacecommunity/spring-boot-starter-solace-client-config",
+      "featured": false,
+      "phases": ["Develop"]
+    },
+    {
+      "id": "graphql-solace-subscriptions",
+      "name": "GraphQL Solace Subscriptions",
+      "description": "A GraphQL subscription implementation using Solace messaging for real-time data updates.",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/250px-GraphQL_Logo.svg.png",
+      "type": "Library",
+      "technologies": ["GraphQL", "Event Broker"],
+      "codeLink": "https://github.com/solacecommunity/graphql-solace-subscriptions",
+      "featured": false,
+      "phases": ["Develop"]
+    },
+    {
+      "id": "solace-jmstoolbox",
+      "name": "Solace JMSToolBox",
+      "description": "A GUI tool for browsing and managing JMS queues and topics on Solace Event Brokers.",
+      "logo": "/jms.png",
+      "type": "Application",
+      "technologies": ["Event Broker", "JMS"],
+      "link": "https://docs.solace.com/API/JMSToolBox.htm",
+      "codeLink": "",
+      "featured": false,
+      "phases": ["Develop", "Test", "Monitor"]
+    },
+    {
+      "id": "conapi-message-manager",
+      "name": "Conapi Message Manager",
+      "description": "A web-based tool for managing and monitoring messages in Solace Event Brokers.",
+      "logo": "https://conapi.at/wp-content/uploads/2024/12/conapi_logo_darkpurple.png",
+      "type": "Application",
+      "technologies": ["Event Broker", "Queue Browser"],
+      "link": "https://conapi.at/message-manager/",
+      "learnLink":"https://www.youtube.com/live/mv4NFa_MPPU?si=cqutDePRWEz5ZXRC&t=3611",
+      "featured": false,
+      "phases": ["Develop", "Test", "Monitor"]
+    },
+    {
+      "id": "solace-broker-terraform-provider",
+      "name": "Solace Broker Terraform Provider",
+      "description": "A Terraform provider for managing Solace Event Broker configurations.",
+      "logo": "https://static-00.iconduck.com/assets.00/terraform-icon-1803x2048-hodrzd3t.png",
+      "type": "Plugin",
+      "technologies": ["Event Broker", "Terraform"],
+      "link": "https://registry.terraform.io/providers/SolaceProducts/solacebroker/latest",
+      "codeLink": "https://github.com/SolaceProducts/terraform-provider-solacebroker",
+      "featured": false,
+      "phases": ["Deploy"]
+    },
+    {
+      "id": "solace-broker-appliance-terraform-provider",
+      "name": "Solace Broker Appliance Terraform Provider",
+      "description": "A Terraform provider for managing Solace Event Broker Appliance configurations.",
+      "logo": "https://static-00.iconduck.com/assets.00/terraform-icon-1803x2048-hodrzd3t.png",
+      "type": "Plugin",
+      "technologies": ["Event Broker", "Terraform"],
+      "link": "https://registry.terraform.io/providers/SolaceProducts/solacebrokerappliance/latest",
+      "codeLink": "https://github.com/SolaceProducts/terraform-provider-solacebrokerappliance",
+      "featured": false,
+      "phases": ["Deploy"]
+    },
+    {
+      "id": "github-action-solace-event-portal-configuration-push",
       "name": "Github Action Solace Event Portal Configuration Push",
       "description": "A github action that facilitates the Solace Event Portal Config push through CI/CD interactions",
       "logo": "https://cdn-icons-png.flaticon.com/512/733/733609.png",
@@ -243,7 +391,7 @@
       "phases": ["Design", "Develop"]
     },
     {
-      "id": "22",
+      "id": "github-action-solace-event-broker-provisioning",
       "name": "Github Action Solace Event Broker Provisioning",
       "description": "A github action that facilitates the provisioning of a Solace Event Broker through reflecting a desing from Solace Event Portal",
       "logo": "https://cdn-icons-png.flaticon.com/512/733/733609.png",
