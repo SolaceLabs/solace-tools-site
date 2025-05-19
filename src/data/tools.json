@@ -357,7 +357,7 @@
     {
       "id": "conapi-message-manager",
       "name": "Conapi Message Manager",
-      "description": "A web-based tool for managing and monitoring messages in Solace Event Brokers.",
+      "description": "An advanced queue browser application that allows for basic message management, but also scripting with Solace Event Brokers.",
       "logo": "https://conapi.at/wp-content/uploads/2024/12/conapi_logo_darkpurple.png",
       "type": "Application",
       "technologies": ["Event Broker", "Queue Browser"],
