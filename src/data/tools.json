@@ -33,7 +33,7 @@
       "technologies": ["AsyncAPI", "Event Portal"],
       "link": "https://studio.solace.dev",
       "codeLink": "https://github.com/TamimiGitHub/asyncapi-studio",
-      "featured": true,
+      "featured": false,
       "phases": ["Design", "Develop"]
     },
     {
@@ -135,7 +135,7 @@
       "type": "Extension",
       "technologies": ["Java", "Eclipse", "MuleSoft", "AsyncAPI", "IDE"],
       "codeLink": "https://github.com/SolaceLabs/solace-ep-eclipse-plugin",
-      "featured": false,
+      "featured": true,
       "phases": ["Design", "Develop", "Test"]
     },
     {
@@ -143,7 +143,7 @@
       "name": "Slack Plugin",
       "description": "Access your Event Portal resources directly from Slack. Including Application Domains, Applications, Events and Schemas",
       "logo": "https://cdn.freebiesupply.com/logos/thumbs/2x/slack-logo-thumb.png",
-      "type": "App",
+      "type": "Application",
       "technologies": ["Slack", "Node.js"],
       "codeLink": "https://github.com/SolaceLabs/solace-slack-app",
       "featured": false,
@@ -170,7 +170,7 @@
       "technologies": ["Java", "AsyncAPI", "SAP", "Event Portal"],
       "link": "https://ep-is-gen.cfapps.ca10.hana.ondemand.com/",
       "codeLink": "https://github.com/SolaceLabs/ep-asyncapi-sap-is-converter",
-      "featured": false,
+      "featured": true,
       "phases": ["Develop"]
     },
     {
@@ -318,6 +318,17 @@
       "technologies": ["Spring", "Event Broker", "Java"],
       "codeLink": "https://github.com/solacecommunity/spring-boot-starter-solace-client-config",
       "featured": false,
+      "phases": ["Develop"]
+    },
+    {
+      "id": "spring-cloud-stream-generator-template",
+      "name": "AsyncAPI Spring Cloud Stream Generate Template",
+      "description": "A template that can be used with the AsyncAPI Generator to create a Spring Boot project pre-configured with Solace bindings for your streaming app.",
+      "logo": "https://img.icons8.com/?size=512&id=90519&format=png",
+      "type": "Extension",
+      "technologies": ["Spring", "Event Broker", "Java"],
+      "codeLink": "https://github.com/asyncapi/java-spring-cloud-stream-template",
+      "featured": true,
       "phases": ["Develop"]
     },
     {
