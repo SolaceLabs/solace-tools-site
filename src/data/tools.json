@@ -25,6 +25,41 @@
       "phases": ["Test", "Develop"]
     },
     {
+      "id": "sap-ci-codegen-from-event-portal",
+      "name": "SAP CI CodeGen from Event Portal",
+      "description": "Generates SAP Cloud Integration (CPI) iFlow artifacts from AsyncAPI specifications exported from Solace Event Portal, streamlining event-driven integration development.",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/1200px-SAP_2011_logo.svg.png",
+      "type": "Web Application",
+      "technologies": ["Java", "AsyncAPI", "SAP", "Event Portal"],
+      "link": "https://ep-is-gen.cfapps.ca10.hana.ondemand.com/",
+      "codeLink": "https://github.com/SolaceLabs/ep-asyncapi-sap-is-converter",
+      "featured": true,
+      "phases": ["Develop"]
+    },
+    {
+      "id": "solace-try-me-cli",
+      "name": "Solace Try-Me CLI",
+      "description": "Command-line interface to simulate publishing and subscribing to Solace brokers.",
+      "logo": "https://images.seeklogo.com/logo-png/22/1/stm-logo-png_seeklogo-224272.png",
+      "type": "CLI Tool",
+      "technologies": ["Node.js", "Event Broker"],
+      "codeLink": "https://github.com/SolaceLabs/solace-tryme-cli",
+      "learnLink": "https://solace.community/t/solace-try-me-cli-stm-a-sleek-command-line-tool-for-messaging-solace-pubsub-broker/1920",
+      "featured": false,
+      "phases": ["Test", "Develop", "Monitor"]
+    },
+    {
+      "id": "spring-cloud-stream-generator-template",
+      "name": "AsyncAPI Spring Cloud Stream Generator Template",
+      "description": "A template that can be used with the AsyncAPI Generator to create a Spring Boot project pre-configured with Solace bindings for your streaming app.",
+      "logo": "https://img.icons8.com/?size=512&id=90519&format=png",
+      "type": "Extension",
+      "technologies": ["Spring", "Event Broker", "Java"],
+      "codeLink": "https://github.com/asyncapi/java-spring-cloud-stream-template",
+      "featured": true,
+      "phases": ["Develop"]
+    },
+    {
       "id": "asyncapi-studio-w-event-portal-import",
       "name": "AsyncAPI Studio w/ Event Portal Import",
       "description": "Create and visualize AsyncAPI specs with native support for importing from Solace Event Portal.",
@@ -33,7 +68,7 @@
       "technologies": ["AsyncAPI", "Event Portal"],
       "link": "https://studio.solace.dev",
       "codeLink": "https://github.com/TamimiGitHub/asyncapi-studio",
-      "featured": true,
+      "featured": false,
       "phases": ["Design", "Develop"]
     },
     {
@@ -57,18 +92,6 @@
       "codeLink": "https://github.com/SolaceLabs/asyncapi-importer-rest",
       "featured": false,
       "phases": ["Design", "Develop", "Deploy"]
-    },
-    {
-      "id": "solace-try-me-cli",
-      "name": "Solace Try-Me CLI",
-      "description": "Command-line interface to simulate publishing and subscribing to Solace brokers.",
-      "logo": "https://images.seeklogo.com/logo-png/22/1/stm-logo-png_seeklogo-224272.png",
-      "type": "CLI Tool",
-      "technologies": ["Node.js", "Event Broker"],
-      "codeLink": "https://github.com/SolaceLabs/solace-tryme-cli",
-      "learnLink": "https://solace.community/t/solace-try-me-cli-stm-a-sleek-command-line-tool-for-messaging-solace-pubsub-broker/1920",
-      "featured": false,
-      "phases": ["Test", "Develop", "Monitor"]
     },
     {
       "id": "pretty-dump",
@@ -135,7 +158,7 @@
       "type": "Extension",
       "technologies": ["Java", "Eclipse", "MuleSoft", "AsyncAPI", "IDE"],
       "codeLink": "https://github.com/SolaceLabs/solace-ep-eclipse-plugin",
-      "featured": false,
+      "featured": true,
       "phases": ["Design", "Develop", "Test"]
     },
     {
@@ -143,7 +166,7 @@
       "name": "Slack Plugin",
       "description": "Access your Event Portal resources directly from Slack. Including Application Domains, Applications, Events and Schemas",
       "logo": "https://cdn.freebiesupply.com/logos/thumbs/2x/slack-logo-thumb.png",
-      "type": "App",
+      "type": "Application",
       "technologies": ["Slack", "Node.js"],
       "codeLink": "https://github.com/SolaceLabs/solace-slack-app",
       "featured": false,
@@ -160,18 +183,6 @@
       "codeLink": "https://github.com/SolaceLabs/solace-confluence-plugin",
       "featured": false,
       "phases": ["Design", "Develop", "Test"]
-    },
-    {
-      "id": "sap-ci-codegen-from-event-portal",
-      "name": "SAP CI CodeGen from Event Portal",
-      "description": "Generates SAP Cloud Integration (CPI) iFlow artifacts from AsyncAPI specifications exported from Solace Event Portal, streamlining event-driven integration development.",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/1200px-SAP_2011_logo.svg.png",
-      "type": "Web Application",
-      "technologies": ["Java", "AsyncAPI", "SAP", "Event Portal"],
-      "link": "https://ep-is-gen.cfapps.ca10.hana.ondemand.com/",
-      "codeLink": "https://github.com/SolaceLabs/ep-asyncapi-sap-is-converter",
-      "featured": false,
-      "phases": ["Develop"]
     },
     {
       "id": "logstash-input-for-solace",
@@ -346,7 +357,7 @@
     {
       "id": "conapi-message-manager",
       "name": "Conapi Message Manager",
-      "description": "A web-based tool for managing and monitoring messages in Solace Event Brokers.",
+      "description": "An advanced queue browser application that allows for basic message management, but also scripting with Solace Event Brokers.",
       "logo": "https://conapi.at/wp-content/uploads/2024/12/conapi_logo_darkpurple.png",
       "type": "Application",
       "technologies": ["Event Broker", "Queue Browser"],
