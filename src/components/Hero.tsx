@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { AIResponse } from '../types/ai';
-import { getMockRecommendations } from '../data/mockRecommendations';
+import { getRecommendations } from '../data/getRecommendations';
 
 // Define colors object for the gradient
 const colors = {
@@ -31,8 +31,8 @@ export const Hero: React.FC<HeroProps> = ({ onRecommendations }) => {
       // Simulate API delay
       await new Promise(resolve => setTimeout(resolve, 1000));
       
-      // Get mock recommendations
-      const data = getMockRecommendations(query);
+      // Get recommendations
+      const data = await getRecommendations(query);
       onRecommendations(data.recommendations);
     } catch (error) {
       console.error('Failed to get recommendations:', error);
@@ -57,8 +57,8 @@ export const Hero: React.FC<HeroProps> = ({ onRecommendations }) => {
           Discover the perfect tools for your project's needs. Describe to Solly AI what you are doing and Solly AI will suggest which tools you should use and why.
         </p>
         
-        <form onSubmit={handleSubmit} className="max-w-2xl mx-auto relative">
-          <div className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400">
+        <form onSubmit={handleSubmit} className="max-w-2xl mx-auto flex pl-4 rounded-full bg-white shadow-lg items-center">
+          <div className="flex-none">
             ✨
           </div>
           <input
@@ -66,12 +66,12 @@ export const Hero: React.FC<HeroProps> = ({ onRecommendations }) => {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Tell Solly AI what you're working on..."
-            className="w-full pl-12 pr-32 py-3 rounded-full bg-white text-solace-cool-gray-12 shadow-lg focus:outline-none focus:ring-2 focus:ring-solace-classic-green"
+            className="grow w-full px-6 py-3 bg-white text-solace-cool-gray-12 focus:outline-none"
           />
           <button
             type="submit"
             disabled={isLoading}
-            className="absolute right-2 top-1/2 transform -translate-y-1/2 px-6 py-2 bg-solace-classic-green hover:bg-solace-dark-green text-white rounded-full transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            className="whitespace-nowrap px-6 py-2 m-1 bg-solace-classic-green hover:bg-solace-dark-green text-white rounded-full transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {isLoading ? 'Thinking...' : 'Ask Solly AI'}
           </button>
