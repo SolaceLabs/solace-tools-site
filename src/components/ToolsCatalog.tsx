@@ -83,7 +83,7 @@ export const ToolsCatalog: React.FC = () => {
                   <h2 className="text-xl font-semibold text-gray-800">
                     {filteredTools.length} {filteredTools.length === 1 ? 'Tool' : 'Tools'}
                   </h2>
-                  <a href="https://github.com/SolaceLabs/solace-tools-site/issues" target="_blank" className="text-sm text-blue-600 hover:text-blue-800 hover:underline underline">Are we missing a tool?</a>
+                  <a href="https://github.com/SolaceLabs/solace-tools-site/issues/new?template=missing-tool.md" target="_blank" className="text-sm text-blue-600 hover:text-blue-800 hover:underline underline">Are we missing a tool?</a>
                 </div>
                 {(filters.types.length > 0 || filters.technologies.length > 0 || searchQuery || selectedPhases.length > 0) && (
                   <p className="text-sm text-gray-500">Filtered results</p>
