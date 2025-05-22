@@ -79,9 +79,12 @@ export const ToolsCatalog: React.FC = () => {
           <div className="bg-white p-4 rounded-lg shadow-sm">
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
               <div>
-                <h2 className="text-xl font-semibold text-gray-800">
-                  {filteredTools.length} {filteredTools.length === 1 ? 'Tool' : 'Tools'}
-                </h2>
+                <div className="flex flex-row items-center gap-2">
+                  <h2 className="text-xl font-semibold text-gray-800">
+                    {filteredTools.length} {filteredTools.length === 1 ? 'Tool' : 'Tools'}
+                  </h2>
+                  <a href="https://github.com/SolaceLabs/solace-tools-site/issues/new?template=missing-tool.md" target="_blank" className="text-sm text-blue-600 hover:text-blue-800 hover:underline underline">Are we missing a tool?</a>
+                </div>
                 {(filters.types.length > 0 || filters.technologies.length > 0 || searchQuery || selectedPhases.length > 0) && (
                   <p className="text-sm text-gray-500">Filtered results</p>
                 )}
