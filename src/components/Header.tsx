@@ -20,10 +20,9 @@ export const Header: React.FC = () => {
     {/* Logo */}
     <a href="/" className="flex items-center">
       <img
-        src="https://www.solace.dev/static/solace-developers-logo-white-6ea7f689ecb529c10ae9fc2c84ed12a5.png"
+        src="/solace-developers-logo.svg"
         alt="Solace Developers"
-        width="125"
-        height="36"
+        width="250"
         className="h-9"
       />
     </a>
