@@ -411,6 +411,28 @@
       "link": "https://github.com/marketplace/actions/solace-event-portal-provisioning-using-terrafornm",
       "featured": false,
       "phases": ["Design", "Develop"]
+    },
+    {
+      "id": "solace-web-client",
+      "name": "Solace Web Client",
+      "description": "The Solace Web Client is a .NET (C#) application that offers comprehensive functionalities for Queue Browsing, Publishing and Subscribing using the Solace PubSub+ platform.",
+      "logo": "https://tools.solace.dev/queue.svg",
+      "type": "Application",
+      "technologies": ["C#", ".NET", "Docker"],
+      "codeLink": "https://github.com/solacecommunity/solace-web-client",
+      "featured": false,
+      "phases": ["Develop", "Test", "Monitor"]
+    },
+    {
+      "id": "solace-queue-browser-gui",
+      "name": "Solace Queue Browser GUI",
+      "description": "Desktop GUI for browsing Solace Queues",
+      "logo": "https://raw.githubusercontent.com/SolaceServices/SolaceQueueBrowserGui/main/SolaceQueueBrowserGui/config/queueBrowserIcon.png",
+      "type": "Application",
+      "technologies": ["Java"],
+      "codeLink": "https://github.com/SolaceServices/SolaceQueueBrowserGui",
+      "featured": false,
+      "phases": ["Develop", "Test", "Design"]
     }
   ]
 }
