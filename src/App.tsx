@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { AIRecommendations } from './components/AIRecommendations';
 import { ToolsCatalog } from './components/ToolsCatalog';
@@ -16,7 +15,6 @@ function App() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <Header />
       <main className="flex-grow">
         <Hero onRecommendations={setRecommendations} />
         {recommendations.length > 0 && (
