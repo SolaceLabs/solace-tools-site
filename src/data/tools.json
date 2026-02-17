@@ -433,6 +433,30 @@
       "codeLink": "https://github.com/SolaceServices/SolaceQueueBrowserGui",
       "featured": false,
       "phases": ["Develop", "Test", "Design"]
+    },
+    {
+      "id": "solace-container-run-command-builder",
+      "name": "Solace Container Run Command Builder",
+      "description": "When deploying container images of Solace Event Brokers using Docker or Podman, this web tool guides users through configuration considerations and generates run commands.",
+      "logo": "https://img.icons8.com/fluency/96/docker.png",
+      "type": "Web Application",
+      "technologies": ["Docker", "Podman"],
+      "link": "https://solacecommunity.github.io/solace-container-command-builder/",
+      "codeLink": "https://github.com/solacecommunity/solace-container-command-builder",
+      "featured": false,
+      "phases": ["Deploy"]
+    },
+    {
+      "id": "solace-topic-sandbox",
+      "name": "Solace Topic Publish + Subscribe Sandbox",
+      "description": "Web-based tool providing a sandbox environment to send and receive simple 'Hello World' messages",
+      "logo": "https://img.icons8.com/color/96/sandbox2.png",
+      "type": "Web Application",
+      "technologies": ["Event Broker", "JavaScript"],
+      "link": "https://solacecommunity.github.io/solace-topic-sandbox/",
+      "codeLink": "https://github.com/solacecommunity/solace-topic-sandbox",
+      "featured": false,
+      "phases": ["Develop", "Test"]
     }
   ]
 }
