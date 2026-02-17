@@ -29,10 +29,13 @@ export const ToolCard: React.FC<ToolCardProps> = ({ tool, aiExplanation }) => {
   return (
     <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 overflow-hidden h-full flex flex-col transform hover:-translate-y-1">
       <div style={{background: "#00c895"}} className="h-16 bg-gray-50 flex items-center justify-center p-3">
-        <img 
-          src={tool.logo} 
+        <img
+          src={tool.logo}
           alt={`${tool.name} logo`}
           className="h-full max-h-10 object-contain"
+          onError={(e) => {
+            e.currentTarget.src = '/android-chrome-512x512.png'; // Fallback image
+          }}
         />
       </div>
       
