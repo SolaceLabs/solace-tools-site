@@ -4,7 +4,7 @@ import { Hero } from './components/Hero';
 import { AIRecommendations } from './components/AIRecommendations';
 import { ToolsCatalog } from './components/ToolsCatalog';
 import { Resources } from './components/Resources';
-import { Footer } from './components/Footer';
+import Footer from './components/Footer';
 import { AIRecommendation } from './types/ai';
 
 function App() {
