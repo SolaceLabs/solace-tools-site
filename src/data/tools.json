@@ -457,6 +457,18 @@
       "codeLink": "https://github.com/solacecommunity/solace-topic-sandbox",
       "featured": false,
       "phases": ["Develop", "Test"]
+    },
+    {
+      "id": "solace-broker-perftest-harness",
+      "name": "Solace Broker PerfTest Harness",
+      "description": "A performance testing tool for Solace message brokers with two key modes: fixed-target benchmarking and discovery mode to find maximum broker performance through exponential probing and binary search.",
+      "logo": "/sdkperf_icon.png",
+      "type": "Testing Tool",
+      "technologies": ["Ansible", "shell", "sdkperf_c", "Event Broker"],
+      "codeLink": "https://github.com/SolaceLabs/solace-perftest-harness/",
+      "learnLink": "https://github.com/SolaceLabs/solace-perftest-harness/blob/main/README.md",
+      "featured": false,
+      "phases": ["Design", "Develop", "Test", "Deploy", "Monitor"]
     }
   ]
 }
