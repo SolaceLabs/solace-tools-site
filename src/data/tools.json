@@ -469,6 +469,18 @@
       "learnLink": "https://github.com/SolaceLabs/solace-perftest-harness/blob/main/README.md",
       "featured": false,
       "phases": ["Design", "Develop", "Test", "Deploy", "Monitor"]
+    },
+    {
+      "id": "sankey-explorer-for-solace",
+      "name": "Sankey Explorer for Solace",
+      "description": "Interactive Sankey diagram of topic-to-endpoint subscriptions on Solace brokers, read live via SEMP. Shows which endpoints would actually receive messages on a topic.",
+      "logo": "https://raw.githubusercontent.com/SolaceLabs/sankey-explorer-for-solace/refs/heads/main/src/client/public/sankey-explorer-app-icon.svg",
+      "type": "Application",
+      "technologies": ["TypeScript", "Event Broker"],
+      "codeLink": "https://github.com/SolaceLabs/sankey-explorer-for-solace",
+      "learnLink": "https://solace.com/blog/looking-inside-solace-broker/",
+      "featured": false,
+      "phases": ["Design", "Monitor"]
     }
   ]
 }
